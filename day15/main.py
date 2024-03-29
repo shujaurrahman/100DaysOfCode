@@ -1,5 +1,5 @@
-from data import MENU
-from data import resources
+from day16.data import MENU
+from day16.data import resources
 from art import logo
 profit=0
 # print report
