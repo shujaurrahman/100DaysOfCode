@@ -1,35 +1,35 @@
-import pandas
+# import pandas
 
-data=pandas.read_csv("day25/weather_data.csv")
+# data=pandas.read_csv("day25/weather_data.csv")
 
-print(data["temp"])
+# print(data["temp"])
 
-data_dict=data.to_dict()
-print(data_dict)
+# data_dict=data.to_dict()
+# print(data_dict)
 
-data_temp_list=data["temp"].to_list()
-print(data_temp_list)
+# data_temp_list=data["temp"].to_list()
+# print(data_temp_list)
 
-# n=len(data_temp_list)
-# s=0
-# for i in data_temp_list:
-#     s+=i
+# # n=len(data_temp_list)
+# # s=0
+# # for i in data_temp_list:
+# #     s+=i
 
-# a=s/n
-# print(a)
+# # a=s/n
+# # print(a)
 
-av=sum(data_temp_list)/len(data_temp_list)
-print(av)
+# av=sum(data_temp_list)/len(data_temp_list)
+# print(av)
 
-print(data["temp"].mean())
+# print(data["temp"].mean())
 
-print(data["temp"].max())
+# print(data["temp"].max())
 
-print(data.day)
+# print(data.day)
 
-print(data[data.day=="Monday"])
+# print(data[data.day=="Monday"])
 
-print(data[data.temp==data.temp.max()])
+# print(data[data.temp==data.temp.max()])
 
 
 import pandas as pd
